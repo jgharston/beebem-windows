@@ -1,6 +1,21 @@
 BeebEm Change History
 =====================
 
+Version 4.15 (Charles Reilly, Chris Needham, Kieran Mockford, pstnotpd, Richard Broadhurst)
+------------
+* Fixed 320x256 screen capture.
+* Enabled DirectX full screen display at current desktop screen resolution.
+* Consistent file selection dialogs.
+* Added debugger Alt-Tab support.
+* Added Sprow ARM7TDMI co-processor emulator.
+* Fixed sound register latch bug.
+* Fixed wrap-around bug with indirect, Y-indexed addressing mode in the
+  6502 emulator.
+* Migrated source code to Visual Studio 2015.
+* Fixed crash if sound sample files are missing.
+* Fixed 8271 disk emulation to show disks as not ready after motor stops.
+* Fixed video recording on Windows 8.
+
 Version 4.14 (J.G.Harston, Steve Pick, Mike Wyatt)
 ------------
 * IDE hard drive interface.
